@@ -5,8 +5,56 @@ html(lang="en")
     .reveal
       .slides.bg-white.lh-copy.bunting.f3.fw3
 
-        include ./slides/intro
-        include ./slides/conclusion
+        // INTRO
+        section.slide--horizontal.slide--theme(data-transition='fade-out')
+          .h-100.flcnw.flc.pa4
+            img.fln.w-100.mt3(src='./img/search_party.png')
+            .fla.flc.f1 Wifi: algolia_guest / realtime
+
+        // SPEAKERS
+        section.slide--horizontal
+          .h-100.flcnw.pa3
+            .fln.f1.lh-title.tl.b Today's speakers
+            .fla.pa3.h-100
+              .h-100.flcnw.flcspa
+                .fln.flrnw.h-third.pa2
+                  .fln.w-25.f0
+                    img.h-100.br-100(src='./img/speakers/alexandre-stanislawski.jpg')
+                  .fla.flcnw.w-75
+                    .fln.tl.f2 Introducing InstantSearch V2
+                    .fln.tr.i.mta.f3 Alexandre Stanislawski (@bobylito)
+                .fln.flrnw.h-third.pa2
+                  .fln.w-25.f0
+                    img.h-100.br-100(src='./img/speakers/sebastien-legall.jpg')
+                  .fla.flcnw.w-75
+                    .fln.tl.f2 A search engine in a world of events and microservices
+                    .fln.tr.i.mta.f3 Sébastien Le Gall (@seb_legall)
+                .fln.flrnw.h-third.pa2.fragment
+                  .fln.w-25.f0
+                    img.h-100.br-100(src='./img/algolia/community.png')
+                  .fla.flcnw.w-75
+                    .fln.tl.f2 Open stage
+                    .fln.tr.i.mta.f3 You?
+
+        // THIS IS YOUR EVENT
+        section.slide--horizontal.slide--theme1
+          .absolute.absolute-0.bg-cover.bg-center(style="background-image: url('./img/algolia/values.jpg')")
+          .absolute.absolute-0.bg-gradient-primary-80.white.h-100.flcnw.flc
+            .f-subheadline.lh-title.mh4.ph6 This is 
+              .di.b your
+              .di  event
+            .tc.i.f2 Let it be a place of open sharing
+          aside.notes
+            .db Candor is one of our values
+            .db Doing it for the first time, let us know what you liked and didn't like
+            .db Showcasing projects. Discussing with people.
+            .db Introducing new features? Open-table discussions with search/UX experts?
+
+
+        // Let's talk
+        section.slide--horizontal.slide--theme1(data-transition='fade-out')
+          .bg-gradient-primary.white.h-100.flcnw.flc
+            .f-headline.lh-title.mh4.ph6 Let's talk
 
         include ./partials/aside-horizontal
         include ./partials/aside-vertical

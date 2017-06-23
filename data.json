@@ -1,7 +1,8 @@
 {
-  "talk_title": "Algolia Speaker Program",
-  "talk_description": "Why should I talk? What could I talk about? Where should I speak? How can I make it impacting?",
-  "talk_author_name": "Tim Carry",
-  "talk_author_twitter": "pixelastic",
-  "talk_url": "http://talks.pixelastic.com/slides/algolia-speaker-program-bbl-dailymotion/"
+  "talk_title": "Algolia Search Party",
+  "talk_description": "Come with us to talk about search",
+  "talk_author_name": "Algolia",
+  "talk_author_twitter": "#AlgoliaSearchParty",
+  "talk_url": "https://algolia.github.io/talk-search-party/"
 }
+

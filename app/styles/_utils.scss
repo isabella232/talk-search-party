@@ -210,6 +210,8 @@
 .h-70 { height: 70%; }
 .h-80 { height: 80%; }
 .h-90 { height: 90%; }
+.h-third { height: calc(100% / 3); }
+.h-two-thirds { height: calc(100% / 1.5); }
 // }}}
 // LINE-HEIGHT {{{
 .lh1 { line-height: 1rem; }
